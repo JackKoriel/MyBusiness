@@ -1,0 +1,21 @@
+{
+  "name": "personal-project",
+  "version": "1.0.0",
+  "description": "This is the backend for the personal project",
+  "main": "server.js",
+  "author": "Jack Koriel",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev:backend": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongodb": "^4.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
